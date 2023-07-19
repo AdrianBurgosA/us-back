@@ -6,7 +6,7 @@ const add = (req, res) => {
     category: req.body.category,
     description: req.body.description,
     price: req.body.price,
-    quantity: req.body.quantity,
+    quantity: req.body.quantity, 
   });
 
   product.save((err,prd) => {
