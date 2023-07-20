@@ -15,8 +15,7 @@ const login = (req, res) => {
             res.status(200).send({
                 name: user.name,
                 username: user.username,
-                rol: user.rol,
-                token
+                rol: user.rol
             })
         }
     })
