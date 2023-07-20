@@ -12,5 +12,6 @@ router.post("/user", UserController.register)
 //Productos
 router.post("/products",ProductController.add)
 router.get("/products", ProductController.getAll)
+router.get("/getBy", ProductController.getByCategory)
 
 module.exports = router
